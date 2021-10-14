@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+
+  
+    display: flex;
+    justify-content: left;
+    padding: 20px 20px;
+}
+.navbar{
+display: flex;
+align-items: center;
+justify-content: center;
+position: sticky;
+top: 0;
+cursor: pointer;
+}
+.nav-list{
+    width: 70%;
+display: flex;
+align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 20px 30px;
+}
+.nav-list li a {
+    text-decoration: none;
+    color:black; 
+    font-size: 20px;
+}
+.nav-list li a:hover {
+    color:cornsilk
+
+}
+.rightNav{
+
+    width: 30%;
+    text-align: right;
+    padding: 0 20px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+
+}
+.box-main{
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+max-width: 50%;
+margin:auto;
+height: 80%;
+
+}   
+.background
+{
+    background:white url("../images/21.jpg");  
+    background-size:cover ;
+    background-blend-mode:darken;
+}
+.firsthalf{
+    width:80%;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+.firstSection{
+    height: 100vh;
+}
+
+.secondhalf img{
+    width: 90%;
+    padding: 15px ;
+    display: block;
+    margin: auto;
+}
+.text-big{
+    font-size: 50px;
+
+}
+.text-small{
+font-size: 25px;
+text-align: justify;
+}
+.btn btn-sm{
+    
+    background: none;
+    cursor: pointer;
+
+}
+.secright{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Bodoni Moda', serif;
+}
+.secleft{
+    max-width: 80%;
+    align-items: center;
+    height: 500%;
+    padding: 90px; 
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    font-family: 'Bodoni Moda', serif;
+}
+.para{
+    
+    padding:0 65px;
+}
+.contct{
+    background-color:lightgray;
+    height: 750px;
+}
+.center{
+    text-align: center;
+    padding-top: 20px;
+    font-family:cursive;
+    font-size: 30px;
+}
+.forms{
+    max-width: 62%;
+    margin:24px auto;
+}
+.forms-input{
+    font-size: 20px;
+    /*margin: 30px 0;*/
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding: 5px 14px;
+}
+.info{
+    margin: 25px 0;
+}
+.wert{
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Bodoni Moda', serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+.btn-dark{
+color:black;
+border: 2px solid grey;
+}
+.gop{
+    background:white url("../images/21.jpg");
+    background-size:cover ;
+    background-blend-mode:darken;
+}
+.burger{
+    position: absolute;
+    cursor:pointer;
+    right: 5%;
+    top: 15px;
+    display: none;
+    
+
+}
+.line{
+    width: 33px;
+    background-color:white;
+    height: 4px;
+    margin: 3px 3px;
+
+}
+.burger{
+    position: absolute;
+    cursor:pointer;
+    right: 5%;
+    top: 15px;
+    display: none;
+    
+
+}
+.line{
+    width: 33px;
+    background-color:white;
+    height: 4px;
+    margin: 3px 3px;
+ 
+}
+@media only screen and (max-width:1140px)
+{
+.nav-list {
+    flex-direction: column;
+}
+.navbar{
+    flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 447px;
+}
+.rightNav{
+    text-align: center;
+}
+.box-main{
+    flex-direction: column-reverse;
+    max-width: 100%;
+}
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;   
+    }
+    .h-nav-resp{
+        height:59px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .secright{
+        flex-direction: column-reverse  ;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .text-big{
+        text-align:center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .para{
+        padding: 0px    ;
+		
+    }
+	.thumnil{
+	}
+}
+
+.tecarea{
+    font-size: 20px;
+    /*margin: 30px 0;*/
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding: 5px 14px;
+}
+
+
+
+
+
+
+
+
+

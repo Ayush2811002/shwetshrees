@@ -1,0 +1,62 @@
+a.as{ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin: 12p;
+    margin-bottom: auto;
+
+}
+.asf-a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.text-big{
+    font-size: 50px;
+
+}
+.secright{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Bodoni Moda', serif;
+}
+.center{
+    text-align: center;
+    padding-top: 20px;
+    font-family:cursive;
+    font-size: 30px;
+}
+.sectionsubtag{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-small{
+    font-size: 25px;
+    text-align: justify;
+    }
+    .secleft {
+        max-width: 80%;
+        align-items: center;
+        height: 500%;
+        padding: 90px;
+        display: flex;
+        margin: auto;
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
+        font-family: 'Bodoni Moda', serif;
+    }
+    .secrights{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        max-width: 80%;
+        margin: auto;
+        font-family: 'Bodoni Moda', serif;
+    }
+    .abous{
+        display: flex;
+        align-items:normal;
+        justify-content: flex-start;
+        max-width: 80%;
+        margin: auto;
+        font-family: 'Bodoni Moda', serif;
+    }

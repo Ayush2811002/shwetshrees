@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contacts{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+background:url("../images/12.jpg");
+background-size: cover;
+}
+.contacts .contents{
+    max-width: 800px;
+        text-align: center;
+}
+.contacts .contents h2 {
+    font-size: 36px;
+    font-family:great Vibes;
+    font-weight: 500;
+    color:white;}
+    .contacts .contents p {
+        font-size: 20px;
+        font-weight: 300;
+        color:white; 
+    }
+    .containers{
+        width: 100% ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px;
+    }
+    .containers .contactsInfo{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .containers .contactsInfo .box{
+        position: relative;
+        padding: 20px 0;
+        display: flex;
+    }
+    .containers .contactsInfo .box .icon{
+        min-width: 60px;
+        height: 60px;
+        background: white;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         border-radius: 50%;
+         font-size: 22px    ;
+    }
+.containers .contactsInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: white;
+    flex-direction: column;
+    font-weight: 300;
+}
+.containers .contactsInfo .box .text h3{
+    font-weight: 500;
+    color:whitesmoke;
+}
+.contactsform{
+    width: 40%;
+    padding: 40px;
+    background: white;
+
+}
+.contactsform h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactsform  .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactsform .inputBox input,
+.contactsform .inputBox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+}
+.contactsform .inputBox input[type="submit"]{
+width: 100px;
+background: #00bcd4;
+color:white;
+border: none;
+cursor: pointer;
+ padding: 10px;
+ font-size: 18px;
+}
+@media(max-width:991px)
+{
+    .contacts{
+        padding: 50px;
+
+    }
+    .containers{
+        flex-direction: column;
+
+    }
+    .containers .contactsInfo{
+        margin-bottom: 40px;
+    }
+    .containers .contactsInfo,
+         .contactsform
+    { 
+        width: 100%;
+    }
+}
+
+
+        .huw{
+            font-family: initial;
+                font-weight: bold;
+                font-size: 20px;
+                letter-spacing: revert;
+        }
